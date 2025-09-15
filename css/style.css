@@ -1,5 +1,5 @@
 @charset "UTF-8";
-* {margin: 0 auto; padding: 0; color: #333333; list-style: none;}
+* {margin: 0 auto; padding: 0; color: #075967; list-style: none;}
 a {text-decoration: none;}
 
 header {width: 100%; height: 100px; background-color: #1E8C9F;}
@@ -12,12 +12,12 @@ ul.mainmenu {width: 640px; height: 50px; position: absolute; margin-right: 10px;
 ul.mainmenu > li {line-height: 50px; width: 160px; float: left; text-align: center; position: relative;}
 ul.mainmenu > li > a {width: 160px; line-height: 50px; display: block; color: #ffffff;}
 
-ul.mainmenu > li > a:hover {color: #ffffff; background-color: #703A7D;}
+ul.mainmenu > li > a:hover {color: #ffffff; background-color: #075967;}
 ul.submenu {height: 0px; z-index: 100; overflow: hidden; transition: height 1s;}
 ul.submenu > li {height: 40px;}
 
-ul.submenu > li > a {line-height: 40px; display: block; color: #075967; background-color: #BEE7EE;}
-ul.submenu > li > a:hover {color: #075967; background-color: #8DC7D0;}
+ul.submenu > li > a {line-height: 40px; display: block; color: #1E8C9F; background-color: #BEE7EE60;}
+ul.submenu > li > a:hover {color: #075967; background-color: #ffffff80; border-radius: 15px;}
 /*position: absolute → position: fixed (뷰포트 기준으로 위치 고정)*/
 .submenu_bg {background-color: #BEE7EE; position: absolute; width: 1200px; height: 0px; left: -200px; top: 100px; z-index: 11; transition: height 1s;}
 
@@ -58,24 +58,24 @@ img.sld_1 {
 
 article {width: 100%; height: 200px;}
 article .con_box {width: 1200px; height: 200px;}
-article .noti {float: left; width: 400px; height: 200px; background-color: #BEE7EE;}
+article .noti {float: left; width: 400px; height: 200px; background-color: #8DC7D0;}
 .noti {width: 400px; height: 200px; float: left; background-color: rgb(243, 250, 255);}
 .noti h3 {font-size: 23px; color: #075967; margin: 15px 0px 10px 16px;}
-.noti ul {background-color: #d7eaed;}
+.noti ul {background-color: #8DC7D0;}
 .noti ul li {margin: 0px 0px 0px 20px;}
-.noti ul li a p {color: #003366; float: left; width: 300px; line-height: 30px;}
-.noti ul li a span {color: #003366; float: left;}
+.noti ul li a p {color: #075967; float: left; width: 300px; line-height: 30px;}
+.noti ul li a span {color: #075967; float: left;}
 
-.gall {width: 400px; height: 200px; float: left;  background-color: #8DC7D0;}
-.gall h3 {font-size: 23px; color: #075967; margin: 15px 0px 10px 16px;}
+.gall {width: 400px; height: 200px; float: left;  background-color: #1E8C9F;}
+.gall h3 {font-size: 23px; color: #fff; margin: 15px 0px 10px 16px;}
 .gall li {float: left; text-align: center; margin: 0 15px 0 16px;}
-.gall li a {float: left; color: #075967; font-size: 12pt;}
+.gall li a {float: left; color: #ffffff; font-size: 12pt;}
 .gall img {width: 100px;}
 
 article .link {float: left; width: 400px; height: 200px; background-image: url(../img/link_bg_3.jpg);}
 .link .link_box {padding: 30px; margin-top: 10px;}
-.link a {font-size: 15px; background-color: #BEE7EE; border-radius: 20px; color: #075967; padding: 5px; margin-right: 10px;}
-.link a:hover {background-color: #1E8C9F; color: #BEE7EE;}
+.link a {font-size: 15px; background-color: #1E8C9F95; border-radius: 20px; color: #ffffff; padding: 5px; margin-right: 10px;}
+.link a:hover {background-color: #8DC7D0; color: #ffffff;}
 
 
 
